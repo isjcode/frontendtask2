@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+body {
+  font-family: Cantarell;
+}
+
 a {
     text-decoration: none;
 }
@@ -15,7 +19,7 @@ a {
 
 .top-left {
     padding-top: 100px;
-    font-size: 24px;
+    font-size: 22px;
     margin-left: 14%;
     color: white;
     margin-right: 52%;
@@ -23,7 +27,7 @@ a {
 
 .top-right {
     color: rgba(255, 255, 255, 0.75);
-    font-size: 20px;
+    font-size: 16px;
     padding: 8px;
     filter: brightness(75%);
 }
@@ -31,4 +35,34 @@ a {
 .top-right:hover {
     transition: 0.3s;
     filter: brightness(100%);
+}
+
+.blue-section {
+    background-color: #1874FD;
+    height: 340px;
+    text-align: center;
+}
+
+.blue-section p {
+    padding-top: 90px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.blue-section h3 {
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    padding-top: 15px;
+    font-weight:300;
+}
+
+.blue-section input {
+    width: 155px;
+    height: 45px;
+    font-size: 20px;
+    background-color: white;
+    border-style: none;
+    border-radius: 5px;
 }

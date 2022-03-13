@@ -15,14 +15,16 @@ a {
     background-color: #212529;
     height: 60px;
     line-height: 57px;
+    position: fixed;
+    width: 100%;
 }
 
 .top-left {
     padding-top: 100px;
-    font-size: 22px;
+    font-size: 20px;
     margin-left: 14%;
     color: white;
-    margin-right: 52%;
+    margin-right: 50%;
 }
 
 .top-right {
@@ -38,9 +40,11 @@ a {
 }
 
 .blue-section {
+    padding-top: 60px;
     background-color: #1874FD;
     height: 340px;
     text-align: center;
+    margin-bottom: 7%;
 }
 
 .blue-section p {
@@ -59,10 +63,55 @@ a {
 }
 
 .blue-section input {
-    width: 155px;
-    height: 45px;
+    width: 168px;
+    height: 48px;
     font-size: 20px;
     background-color: white;
     border-style: none;
     border-radius: 5px;
 }
+
+.section-name {
+    margin-left: 28%;
+    font-size: 200%;
+    font-weight: 400;
+}
+
+
+
+.services-paragraph, .contact-paragraph {
+    width: 850px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 6px;
+    margin-left: 28%;
+    line-height: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 16%;
+}
+
+.about-section p {
+    width: 850px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 6px;
+    margin-left: 28%;
+    line-height: 30px;
+}
+.about-section {
+    margin-bottom: 16%;
+}
+
+.about-section p {
+    padding-bottom: 20px;
+}
+
+.about-section li {
+    margin-left: 30%;
+    padding: 2px;
+}
+
+.services-section {
+    background-color: #F8F9FA;
+}
+
